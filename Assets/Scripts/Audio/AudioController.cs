@@ -48,22 +48,11 @@ public class AudioController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		PlayMusic();
-
 	}
 
 	void OnDestroy () {
 		// Garbage collection: otherwise events will produce null reference errors when called
 		UnsubscribeEvents();
-	}
-		
-	// The generic music loop
-	public void PlayMusic () {
-		EventController.Event(PSEventType.StartMusic);
-	}
-
-	public void StopMusic () {
-		EventController.Event(PSEventType.StopMusic);
 	}
 		
 	public void Play (AudioFile file) {
