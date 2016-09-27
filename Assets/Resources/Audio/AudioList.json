@@ -1,12 +1,12 @@
 {
 	"Audio": [
 		{
-			“FileName”:"cheering",
-			“EventNames”:["testStart"],
-			"StopEventNames":["testStop"],
-			“Loop”:false,
-			“Type”:“FX”,
-			“Channel”:2,
+			"FileName": "cheering",
+			"EventNames": ["testStart"],
+			"StopEventNames": ["testStop"],
+			"Loop": false,
+			"Type": "FX",
+			"Channel": 2,
 			"Volume": 100
 		}
 	]
